@@ -1,0 +1,117 @@
+{
+    "hash": "5f624f75b27b248eac6e381446c822bd",
+    "packages": [
+        {
+            "name": "peej/tonic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peej/tonic.git",
+                "reference": "f8029861829300a92959d25725577d8607db91e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peej/tonic/zipball/f8029861829300a92959d25725577d8607db91e2",
+                "reference": "f8029861829300a92959d25725577d8607db91e2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "behat/behat": "2.*",
+                "phpspec/phpspec": "1.*"
+            },
+            "suggest": {
+                "pimple/pimple": "A simple dependancy injection container to handle your services",
+                "smarty/smarty": "PHP templating engine for building response representations"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Tonic": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul James",
+                    "email": "paul@peej.co.uk"
+                }
+            ],
+            "description": "The RESTful Web App PHP Micro-Framework",
+            "homepage": "http://peej.github.com/tonic",
+            "keywords": [
+                "microframework",
+                "rest"
+            ],
+            "time": "2013-04-04 20:55:18"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Pimple.git",
+                "reference": "v1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/v1.0.2",
+                "reference": "v1.0.2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2013-03-08 08:21:40"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "peej/tonic": 20,
+        "pimple/pimple": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
