@@ -19,7 +19,7 @@ class Coded extends Tonic\Resource {
    */
   public function image($imageName) {
 
-    $image = new Image($imageName, $this->type);
+    $image = new Image("{$imageName}.png", $this->type);
 
     if (!$image->exists()) {
       return false;
