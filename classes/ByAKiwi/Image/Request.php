@@ -13,13 +13,14 @@ class Request {
   }
 
   public function persist($database) {
-    $sql = "INSERT IGNORE INTO imageRequests (image, type)
-            VALUES (:image, :type);";
+    $sql = "INSERT IGNORE INTO imageRequests (image, type, referer)
+            VALUES (:image, :type, :referer);";
 
     $query = $database->prepare($sql);
     $query->execute(array(
       ':image' => $this->image,
-      ':type' => $this->type
+      ':type' => $this->type,
+      ':referer' => $_SERVER['HTTP_REFERER']
     ));
   }
 }
