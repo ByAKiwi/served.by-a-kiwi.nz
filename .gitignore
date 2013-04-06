@@ -1,0 +1,6 @@
+# Files
+/*.DS_Store
+/config.php
+
+# Directories
+/vendor
