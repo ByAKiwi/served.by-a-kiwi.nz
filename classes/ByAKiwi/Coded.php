@@ -28,8 +28,8 @@ class Coded extends Tonic\Resource {
     $imageRequest = new ImageRequest($imageName, $this->type);
     $imageRequest->persist($this->container['database']);
 
-    return new Response(200, $image->content(), [
+    return new Response(200, $image->content(), array(
       'ContentType' => $image->mimeType()
-    ]);
+    ));
   }
 }

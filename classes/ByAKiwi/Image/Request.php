@@ -17,9 +17,9 @@ class Request {
             VALUES (:image, :type);";
 
     $query = $database->prepare($sql);
-    $query->execute([
+    $query->execute(array(
       ':image' => $this->image,
       ':type' => $this->type
-    ]);
+    ));
   }
 }
