@@ -18,8 +18,12 @@ class Coded extends Tonic\Resource {
    * @param str $imageName
    */
   public function image($imageName) {
+    
+    if (strpos($imageName, '.') === false) {
+        $imageName .= '.png';
+    }
 
-    $image = new Image("{$imageName}.png", $this->type);
+    $image = new Image($imageName, $this->type);
 
     if (!$image->exists()) {
       return false;
