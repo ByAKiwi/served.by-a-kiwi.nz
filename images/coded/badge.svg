@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="/Users/passcod/Desktop/drawing.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <title
+     id="title4982">“By A Kiwi” Badge</title>
+  <defs
+     id="defs4">
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="501.31505"
+       height="434.15891"
+       patternTransform="translate(5.3172434,40.798935)"
+       id="pattern3828">
+      <path
+         id="path3035"
+         d="M 375.94765,0.0815019 501.23485,217.0853 375.94766,434.0891 l -250.5744,1e-5 L 0.08605164,217.08532 125.37324,0.08151502 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.64"
+     inkscape:cx="178.35159"
+     inkscape:cy="245.1378"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="752"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>“By A Kiwi” Badge</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:date>2013-04-16</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>passcod</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>none</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Inspired by the “Bonston Built” badge. Features art (kiwi bird outline) by flomar (https://openclipart.org/user-detail/flomar), 2007, public domain.</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Badge"
+     transform="translate(0,88)">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000000;stroke-width:55.11520386;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none;marker-mid:none"
+       id="path4557"
+       sodipodi:sides="6"
+       sodipodi:cx="50.507626"
+       sodipodi:cy="394.8223"
+       sodipodi:r1="220.22252"
+       sodipodi:r2="190.71831"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-1.0471976"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 50.507631,174.59978 190.718289,110.11126 0,220.22252 -190.7183,110.11126 -190.71829,-110.11127 0,-220.22252 z"
+       transform="matrix(1.1612041,0,0,1.1612041,239.66046,-245.61695)" />
+  </g>
+  <g
+     inkscape:label="Badge copy"
+     id="g4583"
+     inkscape:groupmode="layer"
+     transform="translate(0,88)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="M 300.59375 118.875 L 141.71875 210.59375 L 141.71875 394.0625 L 300.59375 485.78125 L 459.46875 394.0625 L 459.46875 210.59375 L 300.59375 118.875 z M 331.53125 209.8125 C 333.71295 209.78698 335.96031 209.80966 338.3125 209.875 C 357.12999 210.39771 389.50938 219.36378 405.15625 234.59375 C 420.78434 249.80542 427.4369 268.63113 421.9375 303.28125 C 416.97619 334.5411 398.67002 338.99761 386.125 351.28125 C 373.58002 363.5649 370.45458 373.74467 371.5 383.9375 C 372.06815 389.47704 377.06569 390.86005 376.28125 392.21875 C 375.25558 393.99528 371.01127 392.98581 367.3125 393.34375 C 359.21051 394.12781 351.1277 399.92052 347.46875 401.75 C 347.77813 398.51558 348.72027 395.44216 349.5625 392.3125 C 342.60857 392.56332 335.71743 393.09171 328.96875 394.8125 C 333.25872 385.13486 349.12289 384.92056 357.375 381.0625 C 359.72718 380.0171 364.69593 377.93687 362.34375 360.6875 C 359.99157 343.43811 342.5 345.25 342.5 345.25 C 334.92072 353.35198 333.34375 370.61951 333.34375 375.0625 C 333.34375 376.81851 336.5508 377.38202 335.5625 379.09375 C 334.62835 380.71178 330.66301 379.80708 327.34375 380.28125 C 321.85531 381.06529 317.0232 384.97688 313.65625 391.1875 C 313.39561 387.63295 313.46609 384.09101 313.75 380.53125 C 307.47042 381.92802 301.81632 383.21749 298.28125 389.125 C 296.94568 374.85767 311.91426 371.27159 322.625 370.09375 L 327.34375 340.5625 C 269.84583 329.06292 252.59375 288.8125 252.59375 288.8125 C 232.10477 305.38921 208.4375 302.0625 208.4375 302.0625 C 185.52166 325.34797 179.16264 358.153 173.75 376.96875 C 170.61771 372.27967 172.625 361.1875 172.625 361.1875 C 175.97338 323.49439 199 296.375 199 296.375 L 198.75 280.1875 C 201.45298 244.64609 214.36481 234.76304 251.03125 240.1875 C 266.18979 241.75564 268.25352 230.25252 287.59375 220.84375 C 304.51642 212.61111 316.25938 209.99117 331.53125 209.8125 z "
+       transform="translate(0,-88)"
+       id="path4585" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-452.36218)" />
+</svg>
