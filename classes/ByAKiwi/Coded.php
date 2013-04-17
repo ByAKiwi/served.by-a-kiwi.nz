@@ -19,6 +19,7 @@ class Coded extends Tonic\Resource {
    */
   public function image($imageName) {
     
+    // Because for some reason png files come through without the extension
     if (strpos($imageName, '.') === false) {
         $imageName .= '.png';
     }
