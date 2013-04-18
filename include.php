@@ -41,10 +41,13 @@ try {
   $response = $resource->exec();
 
 } catch (Tonic\NotFoundException $e) {
-  $response = new Tonic\Response(404, $e->getMessage());
+  $response = new Tonic\Response(302, null, array(
+    'Location' => 'http://by-a.kiwi.nz'
+  ));
 } catch (Tonic\UnauthorizedException $e) {
-  $response = new Tonic\Response(401, $e->getMessage());
-  $response->wwwAuthenticate = 'Basic realm="My Realm"';
+  $response = new Tonic\Response(302, null, array(
+    'Location' => 'http://by-a.kiwi.nz'
+  ));
 } catch (Tonic\Exception $e) {
   $response = new Tonic\Response($e->getCode(), $e->getMessage());
 }

@@ -18,7 +18,6 @@ class Coded extends Tonic\Resource {
    * @param str $imageName
    */
   public function image($imageName) {
-    
     // Because for some reason png files come through without the extension
     if (strpos($imageName, '.') === false) {
         $imageName .= '.png';
@@ -29,12 +28,16 @@ class Coded extends Tonic\Resource {
       return false;
     }
 
-    $imageRequest = new ImageRequest(array(
-      'image' => $imageName, 
-      'type' => $this->type,
-      'referer' => $_SERVER['HTTP_REFERER']
-    ));
-    $imageRequest->persist($this->container['database']);
+    if (isset($_SERVER['HTTP_REFERER'])) {
+      $imageRequest = new ImageRequest(array(
+        'image' => $imageName, 
+        'type' => $this->type,
+        'referer' => $_SERVER['HTTP_REFERER']
+      ));
+
+      $imageRequest->persist($this->container['database']);
+    }
+
 
     return new Response(200, $image->content(), array(
       'ContentType' => $image->mimeType()
