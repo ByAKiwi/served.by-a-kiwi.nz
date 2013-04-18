@@ -29,11 +29,12 @@ class Coded extends Tonic\Resource {
       return false;
     }
 
-    (new ImageRequest(array(
+    $imageRequest = new ImageRequest(array(
       'image' => $imageName, 
       'type' => $this->type,
       'referer' => $_SERVER['HTTP_REFERER']
-    )))->persist($this->container['database']);
+    ));
+    $imageRequest->persist($this->container['database']);
 
     return new Response(200, $image->content(), array(
       'ContentType' => $image->mimeType()
