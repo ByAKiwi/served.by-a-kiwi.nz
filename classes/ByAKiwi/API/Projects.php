@@ -15,7 +15,7 @@ class Projects extends Tonic\Resource {
   public function coded() {
     $requests = ImageRequest::findAllCoded($this->container['database']);
 
-    return new Response(200, json_encode($requests), array(
+    return new Response(200, json_encode(array('projects' => $requests)), array(
       'Content-Type' => 'application/json'
     ));
   }
