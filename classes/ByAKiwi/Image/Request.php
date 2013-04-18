@@ -26,8 +26,7 @@ class Request {
     $query->execute(array(
       ':image' => $this->image,
       ':type' => $this->type,
-      ':referer' => $this->referer,
-      ':favicon_url' => $this->favicon_url
+      ':referer' => $this->referer
     ));
   }
 
