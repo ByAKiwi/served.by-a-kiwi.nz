@@ -8,7 +8,6 @@ class Request {
   public $image;
   public $type;
   public $referer;
-  public $favicon_url;
   public $created; 
   public $updated;
 
@@ -20,8 +19,8 @@ class Request {
 
   public function persist($database) {
     $sql = "INSERT IGNORE INTO imageRequests 
-            (image, type, referer, favicon_url, updated)
-            VALUES (:image, :type, :referer, :favicon_url, NOW());";
+            (image, type, referer, updated)
+            VALUES (:image, :type, :referer, NOW());";
 
     $query = $database->prepare($sql);
     $query->execute(array(
