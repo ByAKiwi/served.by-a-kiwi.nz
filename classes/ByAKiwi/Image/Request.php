@@ -35,7 +35,8 @@ class Request {
             FROM imageRequests
             WHERE (referer IS NOT NULL 
                   AND referer != '')
-                  AND type = 'coded';
+                  AND type = 'coded'
+            GROUP BY referer;
     ";
 
     $query = $database->prepare($sql);
