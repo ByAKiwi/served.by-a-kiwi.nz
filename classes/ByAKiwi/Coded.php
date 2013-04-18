@@ -29,13 +29,16 @@ class Coded extends Tonic\Resource {
     }
 
     if (isset($_SERVER['HTTP_REFERER'])) {
-      $imageRequest = new ImageRequest(array(
-        'image' => $imageName, 
-        'type' => $this->type,
-        'referer' => $_SERVER['HTTP_REFERER']
-      ));
+      $url = parse_url($_SERVER['HTTP_REFERER']);
+      if ($url) {
+        $imageRequest = new ImageRequest(array(
+          'image' => $imageName, 
+          'type' => $this->type,
+          'referer' => $url['scheme'] . '://' . $url['host']
+        ));
 
-      $imageRequest->persist($this->container['database']);
+        $imageRequest->persist($this->container['database']);
+      }
     }
 
 
