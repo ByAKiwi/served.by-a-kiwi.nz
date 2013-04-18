@@ -6,6 +6,7 @@ CREATE TABLE `imageRequests` (
   `referer` varchar(255) NOT NULL,
   `created` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updated` datetime DEFAULT NULL,
-  PRIMARY KEY (`type`,`image`,`referer`)
+  PRIMARY KEY (`type`,`image`,`referer`),
+  UNIQUE KEY `referer_UNIQUE` (`referer`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8$$
 
