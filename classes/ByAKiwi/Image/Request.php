@@ -32,11 +32,12 @@ class Request {
     ));
   }
 
-  public static function findAll($database) {
+  public static function findAllCoded($database) {
     $sql = "SELECT * 
             FROM imageRequests
-            WHERE referer IS NOT NULL 
-                  AND referer != '';
+            WHERE (referer IS NOT NULL 
+                  AND referer != '')
+                  AND type = 'coded';
     ";
 
     $query = $database->prepare($sql);
