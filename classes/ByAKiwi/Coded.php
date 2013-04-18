@@ -25,13 +25,15 @@ class Coded extends Tonic\Resource {
     }
 
     $image = new Image($imageName, $this->type);
-
     if (!$image->exists()) {
       return false;
     }
 
-    $imageRequest = new ImageRequest($imageName, $this->type);
-    $imageRequest->persist($this->container['database']);
+    (new ImageRequest(array(
+      'image' => $imageName, 
+      'type' => $this->type,
+      'referer' => $_SERVER['HTTP_REFERER']
+    )))->persist($this->container['database']);
 
     return new Response(200, $image->content(), array(
       'ContentType' => $image->mimeType()

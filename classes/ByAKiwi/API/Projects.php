@@ -11,17 +11,12 @@ class Projects extends Tonic\Resource {
   
   /**
    * @method GET
-   * @cache 864000
    */
   public function projects() {
-    // Get list of image requests, exclude domains like github, google code etc
-    // Return as JSON
+    $requests = ImageRequest::findAll($this->container['database']);
 
-//    $imageRequest = new ImageRequest($imageName, $this->type);
-//    $imageRequest->persist($this->container['database']);
-//
-//    return new Response(200, $image->content(), array(
-//      'ContentType' => $image->mimeType()
-//    ));
+    return new Response(200, json_encode($requests), array(
+      'Content-Type' => 'application/json'
+    ));
   }
 }
